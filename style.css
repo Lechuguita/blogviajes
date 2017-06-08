@@ -1,0 +1,140 @@
+/*
+Theme name: Blog Viajes
+Theme URI: None
+Author: Marisol Calderon Abad
+Author URI: None
+Version: 0.0.9
+License: GNU
+Tags: Test
+*/
+body{
+	background-color: #f2f2f2;
+}
+
+h1, h2, h3, h4, h5{
+	font-family: 'Metamorphous', cursive;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+
+}
+
+nav.navegacion{
+	background-color: #FFCC00;
+}
+
+nav.navegacion ul{
+	margin-top: 25px;
+
+}
+
+nav.navegacion ul li{
+	text-align: center;
+	margin-bottom: 20px;
+	
+
+}
+
+nav.navegacion ul li a{
+	color: #ff29ff;
+	text-transform: uppercase;
+	padding: 0;
+	font-size: 16px;
+
+	}
+
+	nav.navegacion ul li a:hover{
+		background:transparent;
+	}
+
+	div.titulo{
+		padding: 6px 0;
+		line-height: 1.3;
+		border-left: 20px #FFCC00;
+		margin: 20px auto;
+	}
+
+	div.titulo h1{
+		background-color: #FFCC00;
+		padding: 4px 0;
+		color: #ff29ff;
+		display: inline;
+		font-size: 60px;
+	}
+
+
+	div.titulo h1 span{
+		position: relative;
+		left: -10px;
+
+	}
+
+.site-header{
+	background-repeat: no-repeat;
+	background-position:center center;
+	height: 600px;
+	padding-top: 30px;
+
+
+}
+
+section.contenido{
+	margin-top: 20px;
+}
+div.contenido-entrada{
+	background-color: #ffffff;
+	padding: 20px;
+	text-align: center;
+	min-height: 260px;
+}
+div.contenido-entrada h3{
+	margin: 0;
+	line-height: 24px;
+	margin-bottom: 20px;
+
+}
+div.contenido-entrada p{
+	text-transform: uppercase;
+	font-weight: 
+}
+div.contenido-entrada a,
+div.contenido-entrada span{
+	font-weight: cover;
+	color: pink;
+}
+div.contenido-entrada .btn.btn-success{
+	background-color: blue; 
+	border: none;
+	color:black;
+	text-transform: uppercase;
+	border-radius: 0;
+	padding: 15px 58px;
+	transition: all .3s ease;
+}
+div.contenido-entrada .btn.btn-success{
+
+}
+
+@media (min-width: 768px){
+	.site-header{
+		background-size: cover;
+		background-attachment: fixed;
+	}
+.home .site-header{
+	height: 800px;
+}
+
+.home div.titulo{
+	margin-top: 200px;
+}
+
+nav.navegacion ul li{
+margin-right: 20px;
+}
+	nav.navegacion ul li.current_page_item{
+		border-bottom: 3px solid #ffffff;
+	}
+	nav.navegacion{
+		padding: 10px 0;
+		margin-top: 20px;
+	}
+}
